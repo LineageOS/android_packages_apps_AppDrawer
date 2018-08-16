@@ -19,4 +19,6 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay --extra-packages android.support.v17.lean
 
 LOCAL_PACKAGE_NAME := AppDrawer
 
+LOCAL_SDK_VERSION := current
+
 include $(BUILD_PACKAGE)
