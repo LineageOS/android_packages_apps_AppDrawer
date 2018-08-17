@@ -12,7 +12,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v17-leanback
 
 LOCAL_RESOURCE_DIR := \
-    $(TOP)/frameworks/support/v17/leanback/res \
+    frameworks/support/leanback/src/main/res \
     $(LOCAL_PATH)/res
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay --extra-packages android.support.v17.leanback
